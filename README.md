@@ -1,7 +1,7 @@
 # DumpReparsePoints
 This is a simple tool to dump all the reparse points on an NTFS volume.
 
-It uses the \$Extend\$Reparse directory which can then be queried using
+It uses the \\$Extend\\$Reparse directory which can then be queried using
 NtQueryDirectoryFile and the FileReparsePointInformation info class to
 enumerate all reparse points on the volume without actually recursively
 interating through all files and directories. You need to run this tool
